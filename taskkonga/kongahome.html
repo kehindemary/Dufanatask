@@ -1,145 +1,10 @@
 <html>
     <head>
-
+        <link rel="stylesheet" type="text/css" href="konga.css">
         <title>
-            konga online shoppiong mall
+            konga online shopping mall
         </title>
-        <style>
-        #container{
-                    background-color:rgba(211, 211, 211, 0.589);
-                    box-sizing: border-box;
-                    display:block;
-                    width:auto;
-                    height:100%;
-                    margin-bottom: auto;
-                    border:thin;
-                    line-height:1.0;
-                    padding: 0%;
-                     }
-        .topmost{
-            height: 30px;
-            width:100%;
-            background-color:#FFFFFF;
-            color: #000000;
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 14px;
-            display: block;
-             margin-top:20px;
-            margin-left: auto;
-            margin-right: auto;
-            border:10px;
-            padding: 20px;
-           
-            
-           }
-           a{
-               text-decoration: none;
-               color:black;
-           }
-           a :visited{
-               color:burlywood;
-           }
-           a:hover{
-            color:burlywood;
-           }
-        .search{
-            background-color: #FFFFFF;
-            color: #000000;
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 14px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            border: thin;
-            padding: 20px;
-            height: 100px;
-            width:100%;
-            margin-top: 2px;
-           
-
-        }
-        .nav{
-            height: 50px;
-            width:100%;
-            background-color:deeppink;
-            color:#FFFFFF;
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 14px;
-            display: block;
-            margin:0,auto;
-            border:10px;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            padding-left: 20px;
-            box-sizing: border-box;
-        }
-        a {
-            margin: 10px;
-            padding: 10px;
-        }
-        #footer{
-            font-family:Georgia, "Times New Roman", Times, serif;
-            font-size:14px;
-            color:#FFFFFF;
-            background-color:#000000;
-            box-sizing: border-box;
-            width:100%;
-            height:auto;
-            margin-bottom: auto;
-            margin-top: auto;
-            border:thin;
-            padding: 20px;
-            line-height:1.0;
-        }
-        .right{
-            float:right;
-        }
-        .input{
-            width: 30%;
-            height: 30px;
-            size: 30px;
-            position: absolute;
-            display:inline;
-            margin-left: 10px;
-            margin-right: auto;
-            margin-top: auto;
-            right: 300px;
-            top: 22%;
-                    
-        }
-        .input1{
-            width: 30%;
-            display:inline;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: auto;
-        }
-
-        .input2{
-            border-radius:0px;
-            color:deeppink;
-            background-color:#FFFFFF; 
-            display:inline;
-            height: 30px;
-            position: absolute;
-            right: 250px;
-            top: 22%;
-                    
-        }
-        #img{
-            background-color: #FFFFFF;
-            width: 100%;
-            float: left;
-            margin: 0,auto;
-            padding-left: 50px;
-        }
-        .img1{
-            float: left;
-            width: auto;
-            margin-top: 10px;
-        }
-        </style>
-    </head>
+        </head>
         <body>
                 <div id ="container">
                     <div class="topmost">
@@ -156,12 +21,13 @@
                     </div>
                     <div class="search">
                         <form>
-                            <span class="input1">
-                                <img src="footer.gif" class="input1">
-                                <input class="input" type="text"  placeholder="Search for a product, category or brand"  maxlength="128">
-                                <input class="input2" type="button" value="Search">
+                            <span class="image">
+                                <img src="footer.gif" class="image">
+                                <input class="searchbox" type="text"  placeholder="Search for a product, category or brand"  maxlength="128">
+                                <input class="searchbutton" type="button" value="Search">
                             </span>
                         </form> 
+                        <div style="clear:both"></div>
                     </div>
                     <div class="nav"><a href="#">Phones & Tablets</a>
                         <a href="#">Computers & Accessories</a>
@@ -171,58 +37,20 @@
                         <a href="#">Baby, Kids & Toys</a>
                         <a href="#">Wines & other Categories</a>
                     </div>
-                    <div id="img">
-                        <span class="img1">
+                    <div id="picture">
+                        <span class="image">
                             <img src="konga1.png" alt="picx">
                             <img src="back.jpg" class="right-side-deal">
                             <img src="back3.jpg" class="right-side-deal2">
                         </span>
                     </div>
-        <style type="text/css">
-                        .right-side-deal{
-                            position: absolute;
-                            top: 282px;
-                            display: inline;
-                            width: 250px;
-                            margin-left:10px; 
-                            height: 165px;
-                        }
-                        .right-side-deal2{
-                            position: absolute;
-                            top: 450px;
-                            right: 2%;
-                            display: inline;
-                            width: 250px;
-                            margin-left:10px; 
-                            height: 165px;
-                        }
-                        #picx1{
-                            margin-left: 20%;
-                            margin-right: 0%;
-                            margin-top: 0%;
-                            display: inline;
-                            width: 700px;
-
-                        }
-                        #picx{
-                            background-color: #FFFFFF;
-                        }
-                        #writeups{
-                            display: block;
-                            font-family: 'Times New Roman', Times, serif;
-                            font-size: 14px;
-                            line-height: 1.8;
-                            padding: 20px;
-                            text-align: justify;
-                            color:rgb(23, 29, 23);
-                        }
-        </style> 
+       
               
                 
 
                 <div id="picx"><img src="konga buy.jpg" class="picx1">
                     <img src="phone.png">
-                    <img src="smart.jpg" width="120">
+                    <img src="smart.jpg" width="110" height="150" style="display:inline">
                 </div>                    
                 <span id="writeups">
                         <p>Online Shopping at Konga - Shop Smart, Live Well</p>
