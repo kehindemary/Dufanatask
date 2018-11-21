@@ -7,9 +7,7 @@ include('header.php');
             <br><br>
             <b>
             <?php
-                session_start();
                 if ( isset($_COOKIE['email'])) {
-                    
                 echo "<br><br>";
                 echo "Firstname:" . " " . $_COOKIE['firstname']; 
                 echo "<br><br>";
