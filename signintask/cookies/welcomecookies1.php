@@ -3,7 +3,8 @@ include('header.php');
 ?>
 <section>
         <div class = "main-container">
-            <h3>Home
+            <h3>
+                Home
                 <br>
                 <br>
             <?php
